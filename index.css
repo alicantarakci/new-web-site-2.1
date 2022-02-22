@@ -1,0 +1,108 @@
+*{
+box-sizing:border-box; padding:0; margin:0;
+}
+
+.header-div{
+    width: 100%;
+    height: 55px;
+    
+}
+.header-container{
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: blue;
+}
+.header-container-left{
+    float: left;
+}
+.header-container-right{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1%;
+}
+.header-container-left-box{
+    width: 1400px;
+    background-color: green;
+    height: 55px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.header-container-radio-bottom{
+    height: 31px;
+    margin: 1px 5px;
+    padding-top: 6px;
+}
+.header-text-settings{
+    float: left;
+    padding: 16px 6px 16px 10px;
+    margin-top: 1px;
+    outline-offset: -2px;
+    margin: 1px -6px 0px 0px;
+}
+.header-container-left-image{
+    margin-top: -3px;
+    max-width: none;
+    width: 108px;
+    height: 23px;
+    display: block;
+    margin: 0;
+
+    /*Burada resimi koydum ancak sığdırmada bir sorun yaşadım neden öyle oldu bir fikrim yok */
+}
+.header-container-left-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.header-radio-bottom{
+    /*Burada çizgiyi genişliğini hallettim ancak aşşağıya alamadım çizgiyi */
+    border: 2px solid;
+    border-radius: 3px;
+    height: 31px;
+    margin: 1px 5px;
+    padding-top: 1%;
+    margin: 0px 5px 0px 15px;
+}
+.header-container-left-image-box{
+    padding: 16px 6px 16px 10px;
+    float: left;
+    height: 100%;
+    margin-top: 1px;
+    width: 137px;
+    background-color: orange;
+}
+.black-text{
+    color: black;
+}
+.text-size-13px{
+    font-size: 13px;
+}
+.text-size-14px{
+    font-size: 14px;
+}
+.text-size-15px{
+    font-size: 15px;
+}
+.text-size-16px{
+    font-size: 16px;
+}
+.text-size-17px{
+    font-size: 17px;
+}
+.text-size-18px{
+    font-size: 18px;
+}
+.text-size-19px{
+    font-size: 19px;
+}
+.text-size-20px{
+    font-size: 20px;
+}
+.text-size-21px{
+    font-size: 21px;
+}
+.text-settings{
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+}
