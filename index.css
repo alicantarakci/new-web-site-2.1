@@ -139,13 +139,17 @@ text-align:center;
 }
 .container-v1-big-box-1{
     float: left;
-    width: 600px;
+    width: 50%;
     height: 100%;
 }
 .container-v1-big-box-2{
     float: left;
-    width: 740px;
+    width: 50%;
     height: 100%;
+    padding: 0px 10px;
+    margin: 0px 0px 0px 0px;
+    /* marginin sonunda ki yere 113px vermem gerekiyor ancak yazıyı ortalayamadığım
+    için 113 px i verince kayıyor vermiyorum şuan o yüzden */
 }
 .conteiner-v1-big-box-2-text-settings{
     margin: 0px 0px 20px;
@@ -158,6 +162,7 @@ text-align:center;
     padding: 0 20px;
     margin-right: auto;
     margin-left: auto;
+    background-color: #f0f0f0;
 }
 .container-v2-big-box{
     max-width: 100%;
@@ -169,13 +174,15 @@ text-align:center;
 }
 .container-v2-big-box-1{
     float: left;
-    width: 600px;
+    width: 50%;
     height: 100%;
+   
 }
 .container-v2-big-box-2{
     float: left;
-    width: 740px;
-    height: 100%;
+    width: 660px;
+    height: 311.31px;
+    background-image: url("dotnet-4.png");
 }
 .conteiner-v2-big-box-2-text-settings{
     margin: 0px 0px 20px;
@@ -199,12 +206,12 @@ text-align:center;
 }
 .container-v3-big-box-1{
     float: left;
-    width: 600px;
+    width: 50%;
     height: 100%;
 }
 .container-v3-big-box-2{
     float: left;
-    width: 740px;
+    width: 50%;
     height: 100%;
 }
 .conteiner-v3-big-box-2-text-settings{
@@ -218,6 +225,7 @@ text-align:center;
     padding: 0 20px;
     margin-right: auto;
     margin-left: auto;
+    background-color: #f0f0f0;
 }
 .container-v4-big-box{
     max-width: 100%;
@@ -229,13 +237,14 @@ text-align:center;
 }
 .container-v4-big-box-1{
     float: left;
-    width: 600px;
+    width: 50%;
     height: 100%;
 }
 .container-v4-big-box-2{
     float: left;
-    width: 740px;
-    height: 100%;
+    width: 660px;
+    height: 311.31px;
+    background-image: url("dotnet-4.png");
 }
 .conteiner-v4-big-box-2-text-settings{
     margin: 0px 0px 20px;
@@ -259,12 +268,12 @@ text-align:center;
 }
 .container-v5-big-box-1{
     float: left;
-    width: 600px;
+    width: 50%;
     height: 100%;
 }
 .container-v5-big-box-2{
     float: left;
-    width: 740px;
+    width: 50%;
     height: 100%;
 }
 .conteiner-v5-big-box-2-text-settings{
@@ -278,6 +287,7 @@ text-align:center;
     padding: 0 20px;
     margin-right: auto;
     margin-left: auto;
+    background-color: #f0f0f0;
 }
 .container-v6-big-box{
     max-width: 100%;
@@ -289,13 +299,14 @@ text-align:center;
 }
 .container-v6-big-box-1{
     float: left;
-    width: 600px;
+    width: 50%;
     height: 100%;
 }
 .container-v6-big-box-2{
     float: left;
-    width: 740px;
-    height: 100%;
+    width: 660px;
+    height: 311.31px;
+    background-image: url("dotnet-4.png");
 }
 .conteiner-v6-big-box-2-text-settings{
     margin: 0px 0px 20px;
@@ -319,12 +330,12 @@ text-align:center;
 }
 .container-v7-big-box-1{
     float: left;
-    width: 600px;
+    width: 50%;
     height: 100%;
 }
 .container-v7-big-box-2{
     float: left;
-    width: 740px;
+    width: 50%;
     height: 100%;
 }
 .conteiner-v7-big-box-2-text-settings{
@@ -338,6 +349,7 @@ text-align:center;
     padding: 0 20px;
     margin-right: auto;
     margin-left: auto;
+    background-color: #f0f0f0;
 }
 .container-v8-big-box{
     max-width: 100%; 
@@ -349,13 +361,14 @@ text-align:center;
 }
 .container-v8-big-box-1{
     float: left;
-    width: 600px;
+    width: 50%;
     height: 100%;
 }
 .container-v8-big-box-2{
     float: left;
-    width: 740px;
-    height: 100%;
+    width: 660px;
+    height: 311.31px;
+    background-image: url("dotnet-4.png");
 }
 .conteiner-v8-big-box-2-text-settings{
     margin: 0px 0px 20px;
@@ -379,12 +392,12 @@ text-align:center;
 }
 .container-v9-big-box-1{
     float: left;
-    width: 600px;
+    width: 50%;
     height: 100%;
 }
 .container-v9-big-box-2{
     float: left;
-    width: 740px;
+    width: 50%;
     height: 100%;
 }
 .conteiner-v9-big-box-2-text-settings{
@@ -425,6 +438,9 @@ text-align:center;
 .text-size-21px{
     font-size: 21px;
 }
+.text-size-24px{
+    font-size: 24px;
+}
 .text-size-32px{
     font-size: 32px;
 }
@@ -437,4 +453,48 @@ text-align:center;
 .text-link-settings{
     text-decoration: none;
     color: #262626;
+}
+.container-v2-big-box-1-text{
+    margin: 0px 0px 8px;
+    font-size: 32px;
+    color: #212529;
+}
+.container-v2-big-box-1-text-2{
+    margin: 0px 0px 20px;
+    font-size: 15px;
+    color: #212529;
+}
+.text-settings-container-v2-big-box-2-text-3{
+
+}
+.text-settings-header{
+    padding-left: 27px;
+}
+.footer-container{
+    width: 100%;
+    height: 218px;
+    float: left;
+    background: #512bd4 !important;
+    color: #fff;
+}
+.footer-container-box{
+    width: 100%;
+    height: 98px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.footer-container-box-1{
+    float: left;
+    width: 680px;
+    height: 82.5px;
+    margin:  0px 0px 0px 113.328px;
+    padding: 0px 10px;
+}
+.footer-container-box-1-text-settings{
+    margin: 0px 0px 8px;
+}
+.footer-container-box-1-text-settings-1{
+    margin: 0px 0px 16px;
 }
